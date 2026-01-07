@@ -1,0 +1,44 @@
+body {
+  background: #000;
+  font-family: Arial, sans-serif;
+  color: #ffd500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#login, #painel {
+  background: #111;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 0 20px #ffd500;
+}
+
+#painel {
+  display: none;
+}
+
+input {
+  width: 100%;
+  margin: 8px 0;
+}
+
+button {
+  background: #ffd500;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.box {
+  margin: 10px 0;
+}
+
+.ff-buttons button {
+  margin-top: 8px;
+}
